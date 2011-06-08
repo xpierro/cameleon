@@ -7,13 +7,18 @@
 
 #include <cstdlib>
 
+#include "parser/VMFParser.hpp"
+
 using namespace std;
+
 
 /*
  * 
  */
 int main(int argc, char** argv) {
-
+    parser::VMFParser p;
+    p.setFilePath("/home/pierre/Cameleon/parser/testParser");
+    p.parse();
     return 0;
 }
 
