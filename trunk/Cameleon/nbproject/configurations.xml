@@ -5,6 +5,23 @@
                    displayName="Header Files"
                    projectFiles="true"
                    kind="SOURCE_LOGICAL_FOLDER">
+      <logicalFolder name="parser" displayName="parser" projectFiles="true">
+        <logicalFolder name="f1" displayName="vmf" projectFiles="true">
+          <itemPath>parser/vmf/Axis.hpp</itemPath>
+          <itemPath>parser/vmf/Side.hpp</itemPath>
+          <itemPath>parser/vmf/Solid.hpp</itemPath>
+          <itemPath>parser/vmf/VMF.hpp</itemPath>
+          <itemPath>parser/vmf/VersionInfo.hpp</itemPath>
+          <itemPath>parser/vmf/VisGroup.hpp</itemPath>
+          <itemPath>parser/vmf/World.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>parser/AbstractParser.hpp</itemPath>
+        <itemPath>parser/IParser.hpp</itemPath>
+        <itemPath>parser/Node.hpp</itemPath>
+        <itemPath>parser/VMFParser.hpp</itemPath>
+        <itemPath>parser/VMFTypes.h</itemPath>
+        <itemPath>parser/testParser</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,6 +32,23 @@
                    displayName="Source Files"
                    projectFiles="true"
                    kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>parser/AbstractParser.cpp</itemPath>
+      <itemPath>parser/vmf/Axis.cpp</itemPath>
+      <itemPath>parser/vmf/DispInfo.cpp</itemPath>
+      <itemPath>parser/vmf/Editor.cpp</itemPath>
+      <itemPath>parser/vmf/Group.cpp</itemPath>
+      <itemPath>parser/vmf/Hidden.cpp</itemPath>
+      <itemPath>parser/IParser.cpp</itemPath>
+      <itemPath>parser/Node.cpp</itemPath>
+      <itemPath>parser/vmf/Side.cpp</itemPath>
+      <itemPath>parser/vmf/Solid.cpp</itemPath>
+      <itemPath>parser/vmf/VMF.cpp</itemPath>
+      <itemPath>parser/VMFParser.cpp</itemPath>
+      <itemPath>parser/vmf/VersionInfo.cpp</itemPath>
+      <itemPath>parser/vmf/ViewSettings.cpp</itemPath>
+      <itemPath>parser/vmf/VisGroup.cpp</itemPath>
+      <itemPath>parser/vmf/VisGroups.cpp</itemPath>
+      <itemPath>parser/vmf/World.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -29,6 +63,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>parser</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
